@@ -1,0 +1,98 @@
+html{
+  background-color: black;
+}
+
+/* font Styling*/
+
+body {
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: blue;
+    padding-left: 5%;
+}
+
+p {
+  color: blue;
+}
+
+/* header */
+
+.app-header {
+  color: white;
+}
+
+.app-header .app-header--title {
+    font-size: 22px;
+    line-height: 0;
+    margin-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+
+.app-header--subtitle {
+    font-size: 12px;
+    line-height: 1.5;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+
+.app-header--source{
+    font-size: 10px;
+    line-height: 1.5;
+    padding-left: 2%;
+    border-bottom: solid 1px;
+    color: #ababab;
+}
+
+/* checklist */
+.checklist-background{
+  background-color: black;
+  color: white;
+  display: none;
+  max-width: 20%;
+  overflow: auto;
+  padding: 2% 5% 0% 2%;
+  margin-top: 0%;
+  height: 10vh;
+  float: left;
+}
+
+.checklist-background1{
+  background-color: black;
+  color: white;
+  display: none;
+  max-width: 20%;
+  overflow: auto;
+  padding: 0% 5% 2% 2%;
+  height: 70vh;
+  float: left;
+}
+
+.checklist-title{
+  float: left;
+}
+
+#checklist{
+  float: left;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* Graphs Styling */
+
+#graph,
+#graph3,
+#graph6,
+#graph9,
+#graph1,
+#graph2,
+#graph4,
+#graph5,
+#graph7,
+#graph8  {
+  float: left;
+  padding: 1% 1% 1% 1%;
+  width: 17%;
+}
