@@ -16,7 +16,7 @@ app.layout = html.Div([
     html.Div(
         className="app-header",
         children = [
-            html.Div('House Price Index by Lisbon Borough',
+            html.Div('Median value € per m² of dwellings sales by Lisbon Borough',
                      className="app-header--title"),
         ]
     ),
